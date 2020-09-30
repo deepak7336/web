@@ -1,0 +1,96 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #9ebac7; */
+}
+header::before{
+content: "";
+height: 100vh;
+width: 100%;
+position: absolute;
+z-index: -1;
+/* opacity: .9; */
+/* background: url(../img/bg.png) no-repeat center center/cover; */
+/* background: -webkit-linear-gradient(top, rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%); */
+/* background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); */
+background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
+
+}
+
+.logo img{
+    height: 80px;
+    width: 80px;
+    margin: 0px 30px;
+cursor: pointer;
+}
+
+.navbar{
+    margin-top: 21px;
+}
+.navbar a {text-decoration: none;
+margin: 0px 20px;
+/* display: flex; */
+padding: 5px;
+overflow: auto;
+font-size: 2rem;
+text-transform: capitalize;
+color: whitesmoke
+}
+.navbar a:hover{
+    border-radius: 23px;
+    background-color: grey;
+
+}
+
+.upr-btn{
+    margin: 25px 40px;
+ font-size: 1.1rem;
+ width: 100px;
+ font-weight: bold;
+ padding: 4px;
+ border-radius: 5px;
+ border: none;
+}
+
+.upr-btn:hover{
+    color: rgb(223, 220, 215);
+    background-color: black;
+}
+.home{
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin: 220px 60px;
+}
+.left h2{
+    margin-left: 189px;
+    font-size: 2.9rem;
+}
+.left h1{
+font-size: 3.5rem;
+margin: 10px 0px;
+}
+.left button{
+    font-size: 2rem;
+    width: 450px;
+    margin: 16px 103px;
+}
+ .right{ margin: 0px 60px;
+    margin-top: 150px;
+
+                
+            }
+            .right IMG{
+                height: 300px;
+                width: 360px;
+            }
